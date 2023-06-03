@@ -1,0 +1,185 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#title {
+  background-color: #25316D;
+  color: #fff;
+}
+
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+#features {
+  padding: 7% 15%;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #5F6F94;
+  color: #fff;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 2rem;
+  line-height: 1.5
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.navbar-brand {
+  padding-left: 10px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+  font-size: 1.5rem;
+}
+
+.collapse {
+  margin-left: 190px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.down-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.logo-img {
+  width: 10%;
+}
+
+.title-img {
+  width: 130%;
+}
+
+.btn {
+  margin-left: 90px;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%
+}
+
+.icon {
+  color: #ef8172;
+  padding: 2%
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.testimonial-img {
+  width: 25%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 5% 15%;
+}
+
+.press-img {
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.cta-heading {
+  font-family: "Montserrat";
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+}
+}
+
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+
+.h-custom {
+  height: calc(100% - 73px);
+}
+
+.login {
+    background-color: #25316D;
+    color: #fff;
+}
+
+.text-body {
+  color: #fff;
+}
+
+.row {
+  margin: 60px;
+}
+
+.btn {
+  margin-left: 50px;
+}
+
+@media (max-width: 450px) {
+  .h-custom {
+    height: 100%;
+  }
+}
